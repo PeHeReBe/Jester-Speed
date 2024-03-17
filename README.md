@@ -1,6 +1,8 @@
 
 # Jester Speed
 
+https://thunderstore.io/c/lethal-company/p/AFKingdom/JesterSpeed/
+
 made for fun.
 
 \
