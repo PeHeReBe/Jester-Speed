@@ -16,7 +16,7 @@ namespace JesterSpeedMod
     {
         private const string modGUID = "Poseidon.JesterSpeed";
         private const string modName = "JesterSpeed";
-        private const string modVersion = "1.0.0.0";
+        private const string modVersion = "1.5.1";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
