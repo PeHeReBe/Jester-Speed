@@ -23,8 +23,11 @@ namespace JesterSpeed.Patches
         {
             previousStateValue = ___previousState;
             speed = __instance.agent.speed;
-            targetID = __instance.targetPlayer.playerClientId;
-            Console.WriteLine("Jester: " + __instance.targetPlayer.playerClientId);
+            if (___previousState >= 1)
+            {
+                targetID = __instance.targetPlayer.playerClientId;
+                //Console.WriteLine("Jester: " + __instance.targetPlayer.playerClientId);
+            }
         }
 
         public static int getPreviousStateValue()
